@@ -1,3 +1,0 @@
-INDEX VERSION 1.134+/home/beatrizkuriki/Documents/LÓGICA DE PROGRAMACAO-NELIO ALVES/.metadata/.plugins/org.eclipse.jdt.core
-605443676.index
-1865797976.index
