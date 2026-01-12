@@ -19,6 +19,7 @@ public class ExFor6 {
 				System.out.println(i);
 			}
 		}
+		sc.close();
 	}
 
 }

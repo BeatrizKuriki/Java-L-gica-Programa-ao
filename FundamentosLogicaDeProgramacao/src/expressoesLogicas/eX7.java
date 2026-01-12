@@ -40,6 +40,7 @@ public class eX7 {
 			System.out.println("EIXO Y");
 		}
 
+		sc.close();
 	}
 
 }

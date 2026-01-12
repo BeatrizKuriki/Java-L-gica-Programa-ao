@@ -20,7 +20,7 @@ public class EX4 {
 		horaFinal = sc.nextInt();
 		int tempo = tempoJogo(horaInicial, horaFinal);
 		System.out.printf("O JOGO DUROU " + tempo + " HORAS");
-
+		sc.close();
 	}
 
 	public static int tempoJogo(int a, int b) {

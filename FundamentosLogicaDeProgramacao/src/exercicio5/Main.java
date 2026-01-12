@@ -14,7 +14,7 @@ public class Main {
 		 */
 
 		Scanner sc = new Scanner(System.in);
-		int codPc1, codPc2, qtdPc1, qtdPc2;
+		int qtdPc1, qtdPc2;
 		double valorPc1, valorPc2;
 
 		/**
@@ -36,13 +36,11 @@ public class Main {
 
 		// Usando Métodos para resolver o problema
 		System.out.println("Digite o código da peça 1");
-		codPc1 = sc.nextInt();
 		System.out.println("Digite a quantidade de peças 1");
 		qtdPc1 = sc.nextInt();
 		System.out.println("Qual o valor da peça 1?");
 		valorPc1 = sc.nextDouble();
 		System.out.println("Digite o código da peça 2");
-		codPc2 = sc.nextInt();
 		System.out.println("Digite a quantidade de peças 2");
 		qtdPc2 = sc.nextInt();
 		System.out.println("Qual o valor da peça 2?");
@@ -52,6 +50,7 @@ public class Main {
 
 		System.out.printf("A quantidade de peças compradas foram = %d%n ", qtdPecas);
 		System.out.printf("O valor a pagar  = %.2f%n ", valor);
+		sc.close();
 
 	}
 

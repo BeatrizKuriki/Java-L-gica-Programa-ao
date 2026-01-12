@@ -1,6 +1,6 @@
 package expressoesLogicas;
 
-import java.util.Locale;
+
 import java.util.Scanner;
 
 public class EX5 {
@@ -34,6 +34,7 @@ public class EX5 {
 
 		}
 		System.out.printf("Total: R$ %.2f%n", valor);
+		sc.close();
 
 	}
 
