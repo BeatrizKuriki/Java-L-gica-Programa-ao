@@ -35,6 +35,7 @@ public class Ex6 {
 			System.out.println("INTERVALO: (75, 100]");
 
 		}
+		sc.close();
 	}
 
 }

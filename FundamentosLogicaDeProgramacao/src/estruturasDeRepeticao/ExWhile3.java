@@ -17,11 +17,9 @@ public class ExWhile3 {
 		 */
 
 		Scanner sc = new Scanner(System.in);
-		int alcool, gas, diesel, cod;
+		int cod;
 
-		alcool = 1;
-		gas = 2;
-		diesel = 3;
+	
 		cod = 0;
 		int contAlc = 0;
 		int contGas = 0;
@@ -44,6 +42,21 @@ public class ExWhile3 {
 		System.out.println("Gasolina: " + contGas);
 		System.out.println("Diesel " + contDiesel);
 
+		/*
+		 * OUTRA FORMA DE RESOLUÇÃO int alcool = 0; int gasolina = 0; int diesel = 0;
+		 * 
+		 * int tipo = sc.nextInt();
+		 * 
+		 * while (tipo != 4) { if (tipo == 1) { alcool = alcool + 1; } else if (tipo ==
+		 * 2) { gasolina = gasolina + 1; } else if (tipo == 3) { diesel = diesel + 1; }
+		 * 
+		 * tipo = sc.nextInt(); }
+		 * 
+		 * System.out.println("MUITO OBRIGADO"); System.out.println("Alcool: " +
+		 * alcool); System.out.println("Gasolina: " + gasolina);
+		 * System.out.println("Diesel: " + diesel);
+		 */
+		sc.close();
 	}
 
 }
