@@ -26,6 +26,10 @@ public class ExWhile1 {
 		}
 		System.out.println("Acesso Permitido");
 
+		/*while (senha != 2002) {
+			System.out.println("SENHA INVÁLIDA!");
+		}
+		System.out.println("Acesso Permitido");*/
 		sc.close();
 
 	}
