@@ -29,16 +29,19 @@ public class MainEx2 {
 		}
 		System.out.println();
 		double soma = 0;
+		double avg = 0;
+	
+		
 		for (int i = 0; i < vetor.length; i++) {
 			soma = soma + vetor[i];
 		}
-		double avg = 0;
-	
+		
 		avg = soma/n;
 		System.out.printf("SOMA = %.2f", soma);
 		System.out.println();
 		System.out.printf("MEDIA = %.2f", avg);
 
+		sc.close();
 	}
 
 }
